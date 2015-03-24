@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0500"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7483A6FD19911E1D006AC38C"
+               BuildableName = "iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;.app"
+               BlueprintName = "iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;"
+               ReferencedContainer = "container:iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7483A71E19911E1E006AC38C"
+               BuildableName = "iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;Tests.xctest"
+               BlueprintName = "iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;Tests"
+               ReferencedContainer = "container:iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7483A6FD19911E1D006AC38C"
+            BuildableName = "iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;.app"
+            BlueprintName = "iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;"
+            ReferencedContainer = "container:iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7483A6FD19911E1D006AC38C"
+            BuildableName = "iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;.app"
+            BlueprintName = "iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;"
+            ReferencedContainer = "container:iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7483A6FD19911E1D006AC38C"
+            BuildableName = "iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;.app"
+            BlueprintName = "iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;"
+            ReferencedContainer = "container:iOS&#24320;&#21457;UI&#31687;-&#22312;UIImageView&#20013;&#28155;&#21152;&#25353;&#38062;&#20197;&#21450;Tag&#30340;&#21442;&#25968;&#35828;&#26126;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

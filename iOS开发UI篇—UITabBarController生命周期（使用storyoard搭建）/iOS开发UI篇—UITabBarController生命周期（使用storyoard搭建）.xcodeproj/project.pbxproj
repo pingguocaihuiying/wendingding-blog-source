@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74E6D42B1999A4580003B581 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6D42A1999A4580003B581 /* Foundation.framework */; };
+		74E6D42D1999A4580003B581 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6D42C1999A4580003B581 /* CoreGraphics.framework */; };
+		74E6D42F1999A4580003B581 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6D42E1999A4580003B581 /* UIKit.framework */; };
+		74E6D4351999A4580003B581 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4331999A4580003B581 /* InfoPlist.strings */; };
+		74E6D4371999A4580003B581 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6D4361999A4580003B581 /* main.m */; };
+		74E6D43B1999A4580003B581 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6D43A1999A4580003B581 /* AppDelegate.m */; };
+		74E6D43E1999A4580003B581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D43C1999A4580003B581 /* Main.storyboard */; };
+		74E6D4411999A4580003B581 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6D4401999A4580003B581 /* ViewController.m */; };
+		74E6D4431999A4580003B581 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4421999A4580003B581 /* Images.xcassets */; };
+		74E6D44A1999A4580003B581 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6D4491999A4580003B581 /* XCTest.framework */; };
+		74E6D44B1999A4580003B581 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6D42A1999A4580003B581 /* Foundation.framework */; };
+		74E6D44C1999A4580003B581 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6D42E1999A4580003B581 /* UIKit.framework */; };
+		74E6D4541999A4580003B581 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4521999A4580003B581 /* InfoPlist.strings */; };
+		74E6D4561999A4580003B581 /* iOS__UI__UITabBarController_______storyoard___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6D4551999A4580003B581 /* iOS__UI__UITabBarController_______storyoard___Tests.m */; };
+		74E6D4681999A4AC0003B581 /* tab_buddy_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4601999A4AC0003B581 /* tab_buddy_nor@2x.png */; };
+		74E6D4691999A4AC0003B581 /* tab_buddy_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4611999A4AC0003B581 /* tab_buddy_press@2x.png */; };
+		74E6D46A1999A4AC0003B581 /* tab_me_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4621999A4AC0003B581 /* tab_me_nor@2x.png */; };
+		74E6D46B1999A4AC0003B581 /* tab_me_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4631999A4AC0003B581 /* tab_me_press@2x.png */; };
+		74E6D46C1999A4AC0003B581 /* tab_qworld_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4641999A4AC0003B581 /* tab_qworld_nor@2x.png */; };
+		74E6D46D1999A4AC0003B581 /* tab_qworld_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4651999A4AC0003B581 /* tab_qworld_press@2x.png */; };
+		74E6D46E1999A4AC0003B581 /* tab_recent_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4661999A4AC0003B581 /* tab_recent_nor@2x.png */; };
+		74E6D46F1999A4AC0003B581 /* tab_recent_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4671999A4AC0003B581 /* tab_recent_press@2x.png */; };
+		74E6D4761999B6AE0003B581 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4701999B6AE0003B581 /* 1.png */; };
+		74E6D4771999B6AE0003B581 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4711999B6AE0003B581 /* 2.png */; };
+		74E6D4781999B6AE0003B581 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4721999B6AE0003B581 /* 3.png */; };
+		74E6D4791999B6AE0003B581 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4731999B6AE0003B581 /* 4.png */; };
+		74E6D47A1999B6AE0003B581 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4741999B6AE0003B581 /* 5.png */; };
+		74E6D47B1999B6AE0003B581 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E6D4751999B6AE0003B581 /* 6.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74E6D44D1999A4580003B581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74E6D41F1999A4580003B581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E6D4261999A4580003B581;
+			remoteInfo = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74E6D4271999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E6D42A1999A4580003B581 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74E6D42C1999A4580003B581 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74E6D42E1999A4580003B581 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74E6D4321999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）-Info.plist"; sourceTree = "<group>"; };
+		74E6D4341999A4580003B581 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74E6D4361999A4580003B581 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74E6D4381999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）-Prefix.pch"; sourceTree = "<group>"; };
+		74E6D4391999A4580003B581 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74E6D43A1999A4580003B581 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74E6D43D1999A4580003B581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74E6D43F1999A4580003B581 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74E6D4401999A4580003B581 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74E6D4421999A4580003B581 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		74E6D4481999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E6D4491999A4580003B581 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		74E6D4511999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests-Info.plist"; sourceTree = "<group>"; };
+		74E6D4531999A4580003B581 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74E6D4551999A4580003B581 /* iOS__UI__UITabBarController_______storyoard___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS__UI__UITabBarController_______storyoard___Tests.m"; sourceTree = "<group>"; };
+		74E6D4601999A4AC0003B581 /* tab_buddy_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_buddy_nor@2x.png"; sourceTree = "<group>"; };
+		74E6D4611999A4AC0003B581 /* tab_buddy_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_buddy_press@2x.png"; sourceTree = "<group>"; };
+		74E6D4621999A4AC0003B581 /* tab_me_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_me_nor@2x.png"; sourceTree = "<group>"; };
+		74E6D4631999A4AC0003B581 /* tab_me_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_me_press@2x.png"; sourceTree = "<group>"; };
+		74E6D4641999A4AC0003B581 /* tab_qworld_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_qworld_nor@2x.png"; sourceTree = "<group>"; };
+		74E6D4651999A4AC0003B581 /* tab_qworld_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_qworld_press@2x.png"; sourceTree = "<group>"; };
+		74E6D4661999A4AC0003B581 /* tab_recent_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_recent_nor@2x.png"; sourceTree = "<group>"; };
+		74E6D4671999A4AC0003B581 /* tab_recent_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_recent_press@2x.png"; sourceTree = "<group>"; };
+		74E6D4701999B6AE0003B581 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		74E6D4711999B6AE0003B581 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		74E6D4721999B6AE0003B581 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		74E6D4731999B6AE0003B581 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		74E6D4741999B6AE0003B581 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		74E6D4751999B6AE0003B581 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74E6D4241999A4580003B581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E6D42D1999A4580003B581 /* CoreGraphics.framework in Frameworks */,
+				74E6D42F1999A4580003B581 /* UIKit.framework in Frameworks */,
+				74E6D42B1999A4580003B581 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E6D4451999A4580003B581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E6D44A1999A4580003B581 /* XCTest.framework in Frameworks */,
+				74E6D44C1999A4580003B581 /* UIKit.framework in Frameworks */,
+				74E6D44B1999A4580003B581 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74E6D41E1999A4580003B581 = {
+			isa = PBXGroup;
+			children = (
+				74E6D4301999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建） */,
+				74E6D44F1999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests */,
+				74E6D4291999A4580003B581 /* Frameworks */,
+				74E6D4281999A4580003B581 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74E6D4281999A4580003B581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74E6D4271999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）.app */,
+				74E6D4481999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E6D4291999A4580003B581 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74E6D42A1999A4580003B581 /* Foundation.framework */,
+				74E6D42C1999A4580003B581 /* CoreGraphics.framework */,
+				74E6D42E1999A4580003B581 /* UIKit.framework */,
+				74E6D4491999A4580003B581 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74E6D4301999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建） */ = {
+			isa = PBXGroup;
+			children = (
+				74E6D45F1999A4A10003B581 /* Images */,
+				74E6D4391999A4580003B581 /* AppDelegate.h */,
+				74E6D43A1999A4580003B581 /* AppDelegate.m */,
+				74E6D43C1999A4580003B581 /* Main.storyboard */,
+				74E6D43F1999A4580003B581 /* ViewController.h */,
+				74E6D4401999A4580003B581 /* ViewController.m */,
+				74E6D4421999A4580003B581 /* Images.xcassets */,
+				74E6D4311999A4580003B581 /* Supporting Files */,
+			);
+			path = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）";
+			sourceTree = "<group>";
+		};
+		74E6D4311999A4580003B581 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E6D4321999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）-Info.plist */,
+				74E6D4331999A4580003B581 /* InfoPlist.strings */,
+				74E6D4361999A4580003B581 /* main.m */,
+				74E6D4381999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74E6D44F1999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests */ = {
+			isa = PBXGroup;
+			children = (
+				74E6D4551999A4580003B581 /* iOS__UI__UITabBarController_______storyoard___Tests.m */,
+				74E6D4501999A4580003B581 /* Supporting Files */,
+			);
+			path = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests";
+			sourceTree = "<group>";
+		};
+		74E6D4501999A4580003B581 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E6D4511999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests-Info.plist */,
+				74E6D4521999A4580003B581 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74E6D45F1999A4A10003B581 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				74E6D4601999A4AC0003B581 /* tab_buddy_nor@2x.png */,
+				74E6D4611999A4AC0003B581 /* tab_buddy_press@2x.png */,
+				74E6D4621999A4AC0003B581 /* tab_me_nor@2x.png */,
+				74E6D4631999A4AC0003B581 /* tab_me_press@2x.png */,
+				74E6D4641999A4AC0003B581 /* tab_qworld_nor@2x.png */,
+				74E6D4651999A4AC0003B581 /* tab_qworld_press@2x.png */,
+				74E6D4661999A4AC0003B581 /* tab_recent_nor@2x.png */,
+				74E6D4671999A4AC0003B581 /* tab_recent_press@2x.png */,
+				74E6D4701999B6AE0003B581 /* 1.png */,
+				74E6D4711999B6AE0003B581 /* 2.png */,
+				74E6D4721999B6AE0003B581 /* 3.png */,
+				74E6D4731999B6AE0003B581 /* 4.png */,
+				74E6D4741999B6AE0003B581 /* 5.png */,
+				74E6D4751999B6AE0003B581 /* 6.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74E6D4261999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E6D4591999A4580003B581 /* Build configuration list for PBXNativeTarget "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）" */;
+			buildPhases = (
+				74E6D4231999A4580003B581 /* Sources */,
+				74E6D4241999A4580003B581 /* Frameworks */,
+				74E6D4251999A4580003B581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）";
+			productName = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）";
+			productReference = 74E6D4271999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74E6D4471999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E6D45C1999A4580003B581 /* Build configuration list for PBXNativeTarget "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests" */;
+			buildPhases = (
+				74E6D4441999A4580003B581 /* Sources */,
+				74E6D4451999A4580003B581 /* Frameworks */,
+				74E6D4461999A4580003B581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E6D44E1999A4580003B581 /* PBXTargetDependency */,
+			);
+			name = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests";
+			productName = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests";
+			productReference = 74E6D4481999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74E6D41F1999A4580003B581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = a;
+				TargetAttributes = {
+					74E6D4471999A4580003B581 = {
+						TestTargetID = 74E6D4261999A4580003B581;
+					};
+				};
+			};
+			buildConfigurationList = 74E6D4221999A4580003B581 /* Build configuration list for PBXProject "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74E6D41E1999A4580003B581;
+			productRefGroup = 74E6D4281999A4580003B581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74E6D4261999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建） */,
+				74E6D4471999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74E6D4251999A4580003B581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E6D4771999B6AE0003B581 /* 2.png in Resources */,
+				74E6D46B1999A4AC0003B581 /* tab_me_press@2x.png in Resources */,
+				74E6D4431999A4580003B581 /* Images.xcassets in Resources */,
+				74E6D4791999B6AE0003B581 /* 4.png in Resources */,
+				74E6D46D1999A4AC0003B581 /* tab_qworld_press@2x.png in Resources */,
+				74E6D4681999A4AC0003B581 /* tab_buddy_nor@2x.png in Resources */,
+				74E6D47B1999B6AE0003B581 /* 6.png in Resources */,
+				74E6D4781999B6AE0003B581 /* 3.png in Resources */,
+				74E6D46A1999A4AC0003B581 /* tab_me_nor@2x.png in Resources */,
+				74E6D46E1999A4AC0003B581 /* tab_recent_nor@2x.png in Resources */,
+				74E6D4351999A4580003B581 /* InfoPlist.strings in Resources */,
+				74E6D43E1999A4580003B581 /* Main.storyboard in Resources */,
+				74E6D46F1999A4AC0003B581 /* tab_recent_press@2x.png in Resources */,
+				74E6D4761999B6AE0003B581 /* 1.png in Resources */,
+				74E6D47A1999B6AE0003B581 /* 5.png in Resources */,
+				74E6D4691999A4AC0003B581 /* tab_buddy_press@2x.png in Resources */,
+				74E6D46C1999A4AC0003B581 /* tab_qworld_nor@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E6D4461999A4580003B581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E6D4541999A4580003B581 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74E6D4231999A4580003B581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E6D4411999A4580003B581 /* ViewController.m in Sources */,
+				74E6D43B1999A4580003B581 /* AppDelegate.m in Sources */,
+				74E6D4371999A4580003B581 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E6D4441999A4580003B581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E6D4561999A4580003B581 /* iOS__UI__UITabBarController_______storyoard___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74E6D44E1999A4580003B581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E6D4261999A4580003B581 /* iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建） */;
+			targetProxy = 74E6D44D1999A4580003B581 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74E6D4331999A4580003B581 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E6D4341999A4580003B581 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74E6D43C1999A4580003B581 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E6D43D1999A4580003B581 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74E6D4521999A4580003B581 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E6D4531999A4580003B581 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74E6D4571999A4580003B581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74E6D4581999A4580003B581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74E6D45A1999A4580003B581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）/iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）-Prefix.pch";
+				INFOPLIST_FILE = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）/iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74E6D45B1999A4580003B581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）/iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）-Prefix.pch";
+				INFOPLIST_FILE = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）/iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		74E6D45D1999A4580003B581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）.app/iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）/iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests/iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		74E6D45E1999A4580003B581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）.app/iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）/iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）-Prefix.pch";
+				INFOPLIST_FILE = "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests/iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74E6D4221999A4580003B581 /* Build configuration list for PBXProject "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E6D4571999A4580003B581 /* Debug */,
+				74E6D4581999A4580003B581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E6D4591999A4580003B581 /* Build configuration list for PBXNativeTarget "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E6D45A1999A4580003B581 /* Debug */,
+				74E6D45B1999A4580003B581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74E6D45C1999A4580003B581 /* Build configuration list for PBXNativeTarget "iOS开发UI篇—UITabBarController生命周期（使用storyoard搭建）Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E6D45D1999A4580003B581 /* Debug */,
+				74E6D45E1999A4580003B581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74E6D41F1999A4580003B581 /* Project object */;
+}

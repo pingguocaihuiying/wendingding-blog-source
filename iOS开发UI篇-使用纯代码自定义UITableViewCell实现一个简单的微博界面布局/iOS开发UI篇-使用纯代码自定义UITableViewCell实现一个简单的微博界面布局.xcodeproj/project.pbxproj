@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741479E41993C21B00608648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741479E31993C21B00608648 /* Foundation.framework */; };
+		741479E61993C21B00608648 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741479E51993C21B00608648 /* CoreGraphics.framework */; };
+		741479E81993C21B00608648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741479E71993C21B00608648 /* UIKit.framework */; };
+		741479EE1993C21B00608648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 741479EC1993C21B00608648 /* InfoPlist.strings */; };
+		741479F01993C21B00608648 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 741479EF1993C21B00608648 /* main.m */; };
+		741479F41993C21B00608648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 741479F31993C21B00608648 /* AppDelegate.m */; };
+		741479F71993C21B00608648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741479F51993C21B00608648 /* Main.storyboard */; };
+		741479FA1993C21B00608648 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741479F91993C21B00608648 /* ViewController.m */; };
+		741479FC1993C21B00608648 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741479FB1993C21B00608648 /* Images.xcassets */; };
+		74147A031993C21B00608648 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74147A021993C21B00608648 /* XCTest.framework */; };
+		74147A041993C21B00608648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741479E31993C21B00608648 /* Foundation.framework */; };
+		74147A051993C21B00608648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741479E71993C21B00608648 /* UIKit.framework */; };
+		74147A0D1993C21B00608648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74147A0B1993C21B00608648 /* InfoPlist.strings */; };
+		74147A0F1993C21B00608648 /* iOS__UI__________UITableViewCell_____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74147A0E1993C21B00608648 /* iOS__UI__________UITableViewCell_____________Tests.m */; };
+		74147A291993CEF700608648 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 74147A1C1993CEF700608648 /* 3.png */; };
+		74147A2A1993CEF700608648 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 74147A1D1993CEF700608648 /* 4.png */; };
+		74147A2B1993CEF700608648 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 74147A1E1993CEF700608648 /* 5.png */; };
+		74147A2C1993CEF700608648 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 74147A1F1993CEF700608648 /* 6.png */; };
+		74147A2D1993CEF700608648 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 74147A201993CEF700608648 /* 7.png */; };
+		74147A2E1993CEF700608648 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 74147A211993CEF700608648 /* 8.png */; };
+		74147A2F1993CEF700608648 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 74147A221993CEF700608648 /* 9.png */; };
+		74147A301993CEF700608648 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 74147A231993CEF700608648 /* 10.png */; };
+		74147A311993CEF700608648 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 74147A241993CEF700608648 /* 11.png */; };
+		74147A321993CEF700608648 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 74147A251993CEF700608648 /* 12.png */; };
+		74147A331993CEF700608648 /* vip.png in Resources */ = {isa = PBXBuildFile; fileRef = 74147A261993CEF700608648 /* vip.png */; };
+		74147A361993CF0300608648 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74147A341993CF0300608648 /* 1.jpg */; };
+		74147A371993CF0300608648 /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 74147A351993CF0300608648 /* 2.JPG */; };
+		74147A391993CF3400608648 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74147A381993CF3400608648 /* statuses.plist */; };
+		74147A3C1993D81C00608648 /* Weibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 74147A3B1993D81C00608648 /* Weibo.m */; };
+		74147A401993D9D100608648 /* WeiboCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74147A3F1993D9D100608648 /* WeiboCell.m */; };
+		74147A431994769800608648 /* WeiboFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 74147A421994769800608648 /* WeiboFrame.m */; };
+		74147A451994893500608648 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74147A441994893500608648 /* 3.jpg */; };
+		74147A481994B1CB00608648 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 74147A461994B1CB00608648 /* 1.png */; };
+		74147A491994B1CB00608648 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 74147A471994B1CB00608648 /* 2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74147A061993C21B00608648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741479D81993C21B00608648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 741479DF1993C21B00608648;
+			remoteInfo = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		741479E01993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		741479E31993C21B00608648 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		741479E51993C21B00608648 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		741479E71993C21B00608648 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		741479EB1993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局-Info.plist"; sourceTree = "<group>"; };
+		741479ED1993C21B00608648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		741479EF1993C21B00608648 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		741479F11993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局-Prefix.pch"; sourceTree = "<group>"; };
+		741479F21993C21B00608648 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		741479F31993C21B00608648 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		741479F61993C21B00608648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		741479F81993C21B00608648 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		741479F91993C21B00608648 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		741479FB1993C21B00608648 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		74147A011993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74147A021993C21B00608648 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		74147A0A1993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests-Info.plist"; sourceTree = "<group>"; };
+		74147A0C1993C21B00608648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74147A0E1993C21B00608648 /* iOS__UI__________UITableViewCell_____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS__UI__________UITableViewCell_____________Tests.m"; sourceTree = "<group>"; };
+		74147A1C1993CEF700608648 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		74147A1D1993CEF700608648 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		74147A1E1993CEF700608648 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		74147A1F1993CEF700608648 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		74147A201993CEF700608648 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		74147A211993CEF700608648 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		74147A221993CEF700608648 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		74147A231993CEF700608648 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		74147A241993CEF700608648 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		74147A251993CEF700608648 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		74147A261993CEF700608648 /* vip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vip.png; sourceTree = "<group>"; };
+		74147A341993CF0300608648 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		74147A351993CF0300608648 /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
+		74147A381993CF3400608648 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
+		74147A3A1993D81C00608648 /* Weibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weibo.h; sourceTree = "<group>"; };
+		74147A3B1993D81C00608648 /* Weibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weibo.m; sourceTree = "<group>"; };
+		74147A3E1993D9D100608648 /* WeiboCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboCell.h; sourceTree = "<group>"; };
+		74147A3F1993D9D100608648 /* WeiboCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboCell.m; sourceTree = "<group>"; };
+		74147A411994769800608648 /* WeiboFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboFrame.h; sourceTree = "<group>"; };
+		74147A421994769800608648 /* WeiboFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboFrame.m; sourceTree = "<group>"; };
+		74147A441994893500608648 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		74147A461994B1CB00608648 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		74147A471994B1CB00608648 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		741479DD1993C21B00608648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741479E61993C21B00608648 /* CoreGraphics.framework in Frameworks */,
+				741479E81993C21B00608648 /* UIKit.framework in Frameworks */,
+				741479E41993C21B00608648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741479FE1993C21B00608648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74147A031993C21B00608648 /* XCTest.framework in Frameworks */,
+				74147A051993C21B00608648 /* UIKit.framework in Frameworks */,
+				74147A041993C21B00608648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741479D71993C21B00608648 = {
+			isa = PBXGroup;
+			children = (
+				741479E91993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局 */,
+				74147A081993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests */,
+				741479E21993C21B00608648 /* Frameworks */,
+				741479E11993C21B00608648 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		741479E11993C21B00608648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741479E01993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局.app */,
+				74147A011993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		741479E21993C21B00608648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				741479E31993C21B00608648 /* Foundation.framework */,
+				741479E51993C21B00608648 /* CoreGraphics.framework */,
+				741479E71993C21B00608648 /* UIKit.framework */,
+				74147A021993C21B00608648 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		741479E91993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局 */ = {
+			isa = PBXGroup;
+			children = (
+				74147A3D1993D83200608648 /* Model */,
+				74147A191993C49D00608648 /* head */,
+				74147A181993C48F00608648 /* Images */,
+				741479F21993C21B00608648 /* AppDelegate.h */,
+				741479F31993C21B00608648 /* AppDelegate.m */,
+				741479F51993C21B00608648 /* Main.storyboard */,
+				741479F81993C21B00608648 /* ViewController.h */,
+				741479F91993C21B00608648 /* ViewController.m */,
+				741479FB1993C21B00608648 /* Images.xcassets */,
+				741479EA1993C21B00608648 /* Supporting Files */,
+			);
+			path = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局";
+			sourceTree = "<group>";
+		};
+		741479EA1993C21B00608648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74147A381993CF3400608648 /* statuses.plist */,
+				741479EB1993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局-Info.plist */,
+				741479EC1993C21B00608648 /* InfoPlist.strings */,
+				741479EF1993C21B00608648 /* main.m */,
+				741479F11993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74147A081993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests */ = {
+			isa = PBXGroup;
+			children = (
+				74147A0E1993C21B00608648 /* iOS__UI__________UITableViewCell_____________Tests.m */,
+				74147A091993C21B00608648 /* Supporting Files */,
+			);
+			path = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests";
+			sourceTree = "<group>";
+		};
+		74147A091993C21B00608648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74147A0A1993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests-Info.plist */,
+				74147A0B1993C21B00608648 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74147A181993C48F00608648 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				74147A441994893500608648 /* 3.jpg */,
+				74147A341993CF0300608648 /* 1.jpg */,
+				74147A351993CF0300608648 /* 2.JPG */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		74147A191993C49D00608648 /* head */ = {
+			isa = PBXGroup;
+			children = (
+				74147A461994B1CB00608648 /* 1.png */,
+				74147A471994B1CB00608648 /* 2.png */,
+				74147A1C1993CEF700608648 /* 3.png */,
+				74147A1D1993CEF700608648 /* 4.png */,
+				74147A1E1993CEF700608648 /* 5.png */,
+				74147A1F1993CEF700608648 /* 6.png */,
+				74147A201993CEF700608648 /* 7.png */,
+				74147A211993CEF700608648 /* 8.png */,
+				74147A221993CEF700608648 /* 9.png */,
+				74147A231993CEF700608648 /* 10.png */,
+				74147A241993CEF700608648 /* 11.png */,
+				74147A251993CEF700608648 /* 12.png */,
+				74147A261993CEF700608648 /* vip.png */,
+			);
+			name = head;
+			sourceTree = "<group>";
+		};
+		74147A3D1993D83200608648 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74147A3A1993D81C00608648 /* Weibo.h */,
+				74147A3B1993D81C00608648 /* Weibo.m */,
+				74147A3E1993D9D100608648 /* WeiboCell.h */,
+				74147A3F1993D9D100608648 /* WeiboCell.m */,
+				74147A411994769800608648 /* WeiboFrame.h */,
+				74147A421994769800608648 /* WeiboFrame.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		741479DF1993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74147A121993C21B00608648 /* Build configuration list for PBXNativeTarget "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局" */;
+			buildPhases = (
+				741479DC1993C21B00608648 /* Sources */,
+				741479DD1993C21B00608648 /* Frameworks */,
+				741479DE1993C21B00608648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局";
+			productName = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局";
+			productReference = 741479E01993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74147A001993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74147A151993C21B00608648 /* Build configuration list for PBXNativeTarget "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests" */;
+			buildPhases = (
+				741479FD1993C21B00608648 /* Sources */,
+				741479FE1993C21B00608648 /* Frameworks */,
+				741479FF1993C21B00608648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74147A071993C21B00608648 /* PBXTargetDependency */,
+			);
+			name = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests";
+			productName = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests";
+			productReference = 74147A011993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		741479D81993C21B00608648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = a;
+				TargetAttributes = {
+					74147A001993C21B00608648 = {
+						TestTargetID = 741479DF1993C21B00608648;
+					};
+				};
+			};
+			buildConfigurationList = 741479DB1993C21B00608648 /* Build configuration list for PBXProject "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 741479D71993C21B00608648;
+			productRefGroup = 741479E11993C21B00608648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				741479DF1993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局 */,
+				74147A001993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		741479DE1993C21B00608648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74147A371993CF0300608648 /* 2.JPG in Resources */,
+				74147A321993CEF700608648 /* 12.png in Resources */,
+				74147A491994B1CB00608648 /* 2.png in Resources */,
+				74147A301993CEF700608648 /* 10.png in Resources */,
+				74147A2E1993CEF700608648 /* 8.png in Resources */,
+				741479FC1993C21B00608648 /* Images.xcassets in Resources */,
+				74147A361993CF0300608648 /* 1.jpg in Resources */,
+				74147A2A1993CEF700608648 /* 4.png in Resources */,
+				74147A311993CEF700608648 /* 11.png in Resources */,
+				74147A481994B1CB00608648 /* 1.png in Resources */,
+				74147A451994893500608648 /* 3.jpg in Resources */,
+				74147A2C1993CEF700608648 /* 6.png in Resources */,
+				74147A331993CEF700608648 /* vip.png in Resources */,
+				74147A291993CEF700608648 /* 3.png in Resources */,
+				74147A2B1993CEF700608648 /* 5.png in Resources */,
+				74147A2D1993CEF700608648 /* 7.png in Resources */,
+				74147A391993CF3400608648 /* statuses.plist in Resources */,
+				74147A2F1993CEF700608648 /* 9.png in Resources */,
+				741479EE1993C21B00608648 /* InfoPlist.strings in Resources */,
+				741479F71993C21B00608648 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741479FF1993C21B00608648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74147A0D1993C21B00608648 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		741479DC1993C21B00608648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74147A3C1993D81C00608648 /* Weibo.m in Sources */,
+				74147A401993D9D100608648 /* WeiboCell.m in Sources */,
+				741479FA1993C21B00608648 /* ViewController.m in Sources */,
+				741479F41993C21B00608648 /* AppDelegate.m in Sources */,
+				74147A431994769800608648 /* WeiboFrame.m in Sources */,
+				741479F01993C21B00608648 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741479FD1993C21B00608648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74147A0F1993C21B00608648 /* iOS__UI__________UITableViewCell_____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74147A071993C21B00608648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 741479DF1993C21B00608648 /* iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局 */;
+			targetProxy = 74147A061993C21B00608648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		741479EC1993C21B00608648 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741479ED1993C21B00608648 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		741479F51993C21B00608648 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741479F61993C21B00608648 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74147A0B1993C21B00608648 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74147A0C1993C21B00608648 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74147A101993C21B00608648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74147A111993C21B00608648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74147A131993C21B00608648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局/iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局-Prefix.pch";
+				INFOPLIST_FILE = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局/iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74147A141993C21B00608648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局/iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局-Prefix.pch";
+				INFOPLIST_FILE = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局/iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		74147A161993C21B00608648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局.app/iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局/iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests/iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		74147A171993C21B00608648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局.app/iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局/iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局-Prefix.pch";
+				INFOPLIST_FILE = "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests/iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		741479DB1993C21B00608648 /* Build configuration list for PBXProject "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74147A101993C21B00608648 /* Debug */,
+				74147A111993C21B00608648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74147A121993C21B00608648 /* Build configuration list for PBXNativeTarget "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74147A131993C21B00608648 /* Debug */,
+				74147A141993C21B00608648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74147A151993C21B00608648 /* Build configuration list for PBXNativeTarget "iOS开发UI篇-使用纯代码自定义UITableViewCell实现一个简单的微博界面布局Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74147A161993C21B00608648 /* Debug */,
+				74147A171993C21B00608648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 741479D81993C21B00608648 /* Project object */;
+}

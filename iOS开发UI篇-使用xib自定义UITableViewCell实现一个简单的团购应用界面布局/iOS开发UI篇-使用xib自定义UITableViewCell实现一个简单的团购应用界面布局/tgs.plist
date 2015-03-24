@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>buyCount</key>
+		<string>32</string>
+		<key>icon</key>
+		<string>1</string>
+		<key>price</key>
+		<string>2258</string>
+		<key>title</key>
+		<string>华为P7</string>
+	</dict>
+	<dict>
+		<key>buyCount</key>
+		<string>20</string>
+		<key>icon</key>
+		<string>2</string>
+		<key>price</key>
+		<string>2222</string>
+		<key>title</key>
+		<string>富士相机</string>
+	</dict>
+	<dict>
+		<key>buyCount</key>
+		<string>45</string>
+		<key>icon</key>
+		<string>3</string>
+		<key>price</key>
+		<string>1223</string>
+		<key>title</key>
+		<string>华为荣耀3C</string>
+	</dict>
+	<dict>
+		<key>buyCount</key>
+		<string>123</string>
+		<key>icon</key>
+		<string>4</string>
+		<key>price</key>
+		<string>99</string>
+		<key>title</key>
+		<string>电子秤</string>
+	</dict>
+	<dict>
+		<key>buyCount</key>
+		<string>5</string>
+		<key>icon</key>
+		<string>5</string>
+		<key>price</key>
+		<string>2999</string>
+		<key>title</key>
+		<string>ThinkPad E431</string>
+	</dict>
+	<dict>
+		<key>buyCount</key>
+		<string>45</string>
+		<key>icon</key>
+		<string>6</string>
+		<key>price</key>
+		<string>899</string>
+		<key>title</key>
+		<string>微星主板</string>
+	</dict>
+</array>
+</plist>

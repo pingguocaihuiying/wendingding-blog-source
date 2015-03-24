@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74E6CF391995BE900003B581 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6CF381995BE900003B581 /* Foundation.framework */; };
+		74E6CF3B1995BE900003B581 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6CF3A1995BE900003B581 /* CoreGraphics.framework */; };
+		74E6CF3D1995BE900003B581 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6CF3C1995BE900003B581 /* UIKit.framework */; };
+		74E6CF431995BE900003B581 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF411995BE900003B581 /* InfoPlist.strings */; };
+		74E6CF451995BE900003B581 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6CF441995BE900003B581 /* main.m */; };
+		74E6CF491995BE900003B581 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6CF481995BE900003B581 /* AppDelegate.m */; };
+		74E6CF4C1995BE900003B581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF4A1995BE900003B581 /* Main.storyboard */; };
+		74E6CF4F1995BE900003B581 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6CF4E1995BE900003B581 /* ViewController.m */; };
+		74E6CF511995BE900003B581 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF501995BE900003B581 /* Images.xcassets */; };
+		74E6CF581995BE900003B581 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6CF571995BE900003B581 /* XCTest.framework */; };
+		74E6CF591995BE900003B581 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6CF381995BE900003B581 /* Foundation.framework */; };
+		74E6CF5A1995BE900003B581 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6CF3C1995BE900003B581 /* UIKit.framework */; };
+		74E6CF621995BE900003B581 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF601995BE900003B581 /* InfoPlist.strings */; };
+		74E6CF641995BE900003B581 /* iOS__UI___UITableView________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6CF631995BE900003B581 /* iOS__UI___UITableView________Tests.m */; };
+		74E6CF791995C0BF0003B581 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF731995C0BF0003B581 /* 1.jpg */; };
+		74E6CF7A1995C0BF0003B581 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF741995C0BF0003B581 /* 2.jpg */; };
+		74E6CF7B1995C0BF0003B581 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF751995C0BF0003B581 /* 3.jpg */; };
+		74E6CF7C1995C0BF0003B581 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF761995C0BF0003B581 /* 4.jpg */; };
+		74E6CF7D1995C0BF0003B581 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF771995C0BF0003B581 /* 5.jpg */; };
+		74E6CF7E1995C0BF0003B581 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF781995C0BF0003B581 /* 6.jpg */; };
+		74E6CF811995C0C90003B581 /* TuanGouModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6CF801995C0C90003B581 /* TuanGouModel.m */; };
+		74E6CF851995C0D90003B581 /* tgcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF821995C0D90003B581 /* tgcell.xib */; };
+		74E6CF861995C0D90003B581 /* TuanGouCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6CF841995C0D90003B581 /* TuanGouCell.m */; };
+		74E6CF891995C11B0003B581 /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF881995C11B0003B581 /* tgs.plist */; };
+		74E6CF8B1995C2700003B581 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF8A1995C2700003B581 /* FooterView.xib */; };
+		74E6CF8E1995C4470003B581 /* FooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6CF8D1995C4470003B581 /* FooterView.m */; };
+		74E6CF911995CC910003B581 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF8F1995CC910003B581 /* 8.jpg */; };
+		74E6CF921995CC910003B581 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74E6CF901995CC910003B581 /* 9.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74E6CF5B1995BE900003B581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74E6CF2D1995BE900003B581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E6CF341995BE900003B581;
+			remoteInfo = "iOS开发UI篇-在UITableView实现加载更多功能";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74E6CF351995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS开发UI篇-在UITableView实现加载更多功能.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E6CF381995BE900003B581 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74E6CF3A1995BE900003B581 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74E6CF3C1995BE900003B581 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74E6CF401995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS开发UI篇-在UITableView实现加载更多功能-Info.plist"; sourceTree = "<group>"; };
+		74E6CF421995BE900003B581 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74E6CF441995BE900003B581 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74E6CF461995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS开发UI篇-在UITableView实现加载更多功能-Prefix.pch"; sourceTree = "<group>"; };
+		74E6CF471995BE900003B581 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74E6CF481995BE900003B581 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74E6CF4B1995BE900003B581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74E6CF4D1995BE900003B581 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74E6CF4E1995BE900003B581 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74E6CF501995BE900003B581 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		74E6CF561995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS开发UI篇-在UITableView实现加载更多功能Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E6CF571995BE900003B581 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		74E6CF5F1995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS开发UI篇-在UITableView实现加载更多功能Tests-Info.plist"; sourceTree = "<group>"; };
+		74E6CF611995BE900003B581 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74E6CF631995BE900003B581 /* iOS__UI___UITableView________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS__UI___UITableView________Tests.m"; sourceTree = "<group>"; };
+		74E6CF731995C0BF0003B581 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		74E6CF741995C0BF0003B581 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		74E6CF751995C0BF0003B581 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		74E6CF761995C0BF0003B581 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		74E6CF771995C0BF0003B581 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		74E6CF781995C0BF0003B581 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		74E6CF7F1995C0C90003B581 /* TuanGouModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuanGouModel.h; sourceTree = "<group>"; };
+		74E6CF801995C0C90003B581 /* TuanGouModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuanGouModel.m; sourceTree = "<group>"; };
+		74E6CF821995C0D90003B581 /* tgcell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tgcell.xib; sourceTree = "<group>"; };
+		74E6CF831995C0D90003B581 /* TuanGouCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuanGouCell.h; sourceTree = "<group>"; };
+		74E6CF841995C0D90003B581 /* TuanGouCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuanGouCell.m; sourceTree = "<group>"; };
+		74E6CF871995C1100003B581 /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		74E6CF881995C11B0003B581 /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tgs.plist; sourceTree = "<group>"; };
+		74E6CF8A1995C2700003B581 /* FooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
+		74E6CF8C1995C4470003B581 /* FooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterView.h; sourceTree = "<group>"; };
+		74E6CF8D1995C4470003B581 /* FooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterView.m; sourceTree = "<group>"; };
+		74E6CF8F1995CC910003B581 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		74E6CF901995CC910003B581 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74E6CF321995BE900003B581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E6CF3B1995BE900003B581 /* CoreGraphics.framework in Frameworks */,
+				74E6CF3D1995BE900003B581 /* UIKit.framework in Frameworks */,
+				74E6CF391995BE900003B581 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E6CF531995BE900003B581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E6CF581995BE900003B581 /* XCTest.framework in Frameworks */,
+				74E6CF5A1995BE900003B581 /* UIKit.framework in Frameworks */,
+				74E6CF591995BE900003B581 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74E6CF2C1995BE900003B581 = {
+			isa = PBXGroup;
+			children = (
+				74E6CF3E1995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能 */,
+				74E6CF5D1995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能Tests */,
+				74E6CF371995BE900003B581 /* Frameworks */,
+				74E6CF361995BE900003B581 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74E6CF361995BE900003B581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74E6CF351995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能.app */,
+				74E6CF561995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E6CF371995BE900003B581 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74E6CF381995BE900003B581 /* Foundation.framework */,
+				74E6CF3A1995BE900003B581 /* CoreGraphics.framework */,
+				74E6CF3C1995BE900003B581 /* UIKit.framework */,
+				74E6CF571995BE900003B581 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74E6CF3E1995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能 */ = {
+			isa = PBXGroup;
+			children = (
+				74E6CF721995C0B40003B581 /* Images */,
+				74E6CF711995BF6E0003B581 /* Global */,
+				74E6CF701995BF5F0003B581 /* Other */,
+				74E6CF6F1995BF4D0003B581 /* Controller */,
+				74E6CF6E1995BF430003B581 /* View */,
+				74E6CF6D1995BF3C0003B581 /* Model */,
+				74E6CF4A1995BE900003B581 /* Main.storyboard */,
+				74E6CF881995C11B0003B581 /* tgs.plist */,
+				74E6CF501995BE900003B581 /* Images.xcassets */,
+				74E6CF3F1995BE900003B581 /* Supporting Files */,
+			);
+			path = "iOS开发UI篇-在UITableView实现加载更多功能";
+			sourceTree = "<group>";
+		};
+		74E6CF3F1995BE900003B581 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E6CF401995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能-Info.plist */,
+				74E6CF411995BE900003B581 /* InfoPlist.strings */,
+				74E6CF441995BE900003B581 /* main.m */,
+				74E6CF461995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74E6CF5D1995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能Tests */ = {
+			isa = PBXGroup;
+			children = (
+				74E6CF631995BE900003B581 /* iOS__UI___UITableView________Tests.m */,
+				74E6CF5E1995BE900003B581 /* Supporting Files */,
+			);
+			path = "iOS开发UI篇-在UITableView实现加载更多功能Tests";
+			sourceTree = "<group>";
+		};
+		74E6CF5E1995BE900003B581 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E6CF5F1995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能Tests-Info.plist */,
+				74E6CF601995BE900003B581 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74E6CF6D1995BF3C0003B581 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74E6CF7F1995C0C90003B581 /* TuanGouModel.h */,
+				74E6CF801995C0C90003B581 /* TuanGouModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		74E6CF6E1995BF430003B581 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74E6CF821995C0D90003B581 /* tgcell.xib */,
+				74E6CF831995C0D90003B581 /* TuanGouCell.h */,
+				74E6CF841995C0D90003B581 /* TuanGouCell.m */,
+				74E6CF8A1995C2700003B581 /* FooterView.xib */,
+				74E6CF8C1995C4470003B581 /* FooterView.h */,
+				74E6CF8D1995C4470003B581 /* FooterView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		74E6CF6F1995BF4D0003B581 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74E6CF4D1995BE900003B581 /* ViewController.h */,
+				74E6CF4E1995BE900003B581 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		74E6CF701995BF5F0003B581 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				74E6CF471995BE900003B581 /* AppDelegate.h */,
+				74E6CF481995BE900003B581 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		74E6CF711995BF6E0003B581 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				74E6CF871995C1100003B581 /* Global.h */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		74E6CF721995C0B40003B581 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				74E6CF731995C0BF0003B581 /* 1.jpg */,
+				74E6CF741995C0BF0003B581 /* 2.jpg */,
+				74E6CF751995C0BF0003B581 /* 3.jpg */,
+				74E6CF761995C0BF0003B581 /* 4.jpg */,
+				74E6CF771995C0BF0003B581 /* 5.jpg */,
+				74E6CF781995C0BF0003B581 /* 6.jpg */,
+				74E6CF8F1995CC910003B581 /* 8.jpg */,
+				74E6CF901995CC910003B581 /* 9.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74E6CF341995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E6CF671995BE900003B581 /* Build configuration list for PBXNativeTarget "iOS开发UI篇-在UITableView实现加载更多功能" */;
+			buildPhases = (
+				74E6CF311995BE900003B581 /* Sources */,
+				74E6CF321995BE900003B581 /* Frameworks */,
+				74E6CF331995BE900003B581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS开发UI篇-在UITableView实现加载更多功能";
+			productName = "iOS开发UI篇-在UITableView实现加载更多功能";
+			productReference = 74E6CF351995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74E6CF551995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E6CF6A1995BE900003B581 /* Build configuration list for PBXNativeTarget "iOS开发UI篇-在UITableView实现加载更多功能Tests" */;
+			buildPhases = (
+				74E6CF521995BE900003B581 /* Sources */,
+				74E6CF531995BE900003B581 /* Frameworks */,
+				74E6CF541995BE900003B581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E6CF5C1995BE900003B581 /* PBXTargetDependency */,
+			);
+			name = "iOS开发UI篇-在UITableView实现加载更多功能Tests";
+			productName = "iOS开发UI篇-在UITableView实现加载更多功能Tests";
+			productReference = 74E6CF561995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74E6CF2D1995BE900003B581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = a;
+				TargetAttributes = {
+					74E6CF551995BE900003B581 = {
+						TestTargetID = 74E6CF341995BE900003B581;
+					};
+				};
+			};
+			buildConfigurationList = 74E6CF301995BE900003B581 /* Build configuration list for PBXProject "iOS开发UI篇-在UITableView实现加载更多功能" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74E6CF2C1995BE900003B581;
+			productRefGroup = 74E6CF361995BE900003B581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74E6CF341995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能 */,
+				74E6CF551995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74E6CF331995BE900003B581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E6CF7E1995C0BF0003B581 /* 6.jpg in Resources */,
+				74E6CF8B1995C2700003B581 /* FooterView.xib in Resources */,
+				74E6CF511995BE900003B581 /* Images.xcassets in Resources */,
+				74E6CF891995C11B0003B581 /* tgs.plist in Resources */,
+				74E6CF7D1995C0BF0003B581 /* 5.jpg in Resources */,
+				74E6CF911995CC910003B581 /* 8.jpg in Resources */,
+				74E6CF7C1995C0BF0003B581 /* 4.jpg in Resources */,
+				74E6CF791995C0BF0003B581 /* 1.jpg in Resources */,
+				74E6CF7A1995C0BF0003B581 /* 2.jpg in Resources */,
+				74E6CF921995CC910003B581 /* 9.jpg in Resources */,
+				74E6CF851995C0D90003B581 /* tgcell.xib in Resources */,
+				74E6CF7B1995C0BF0003B581 /* 3.jpg in Resources */,
+				74E6CF431995BE900003B581 /* InfoPlist.strings in Resources */,
+				74E6CF4C1995BE900003B581 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E6CF541995BE900003B581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E6CF621995BE900003B581 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74E6CF311995BE900003B581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E6CF4F1995BE900003B581 /* ViewController.m in Sources */,
+				74E6CF811995C0C90003B581 /* TuanGouModel.m in Sources */,
+				74E6CF491995BE900003B581 /* AppDelegate.m in Sources */,
+				74E6CF8E1995C4470003B581 /* FooterView.m in Sources */,
+				74E6CF861995C0D90003B581 /* TuanGouCell.m in Sources */,
+				74E6CF451995BE900003B581 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E6CF521995BE900003B581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E6CF641995BE900003B581 /* iOS__UI___UITableView________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74E6CF5C1995BE900003B581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E6CF341995BE900003B581 /* iOS开发UI篇-在UITableView实现加载更多功能 */;
+			targetProxy = 74E6CF5B1995BE900003B581 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74E6CF411995BE900003B581 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E6CF421995BE900003B581 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74E6CF4A1995BE900003B581 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E6CF4B1995BE900003B581 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74E6CF601995BE900003B581 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E6CF611995BE900003B581 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74E6CF651995BE900003B581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74E6CF661995BE900003B581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74E6CF681995BE900003B581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS开发UI篇-在UITableView实现加载更多功能/iOS开发UI篇-在UITableView实现加载更多功能-Prefix.pch";
+				INFOPLIST_FILE = "iOS开发UI篇-在UITableView实现加载更多功能/iOS开发UI篇-在UITableView实现加载更多功能-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74E6CF691995BE900003B581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS开发UI篇-在UITableView实现加载更多功能/iOS开发UI篇-在UITableView实现加载更多功能-Prefix.pch";
+				INFOPLIST_FILE = "iOS开发UI篇-在UITableView实现加载更多功能/iOS开发UI篇-在UITableView实现加载更多功能-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		74E6CF6B1995BE900003B581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS开发UI篇-在UITableView实现加载更多功能.app/iOS开发UI篇-在UITableView实现加载更多功能";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS开发UI篇-在UITableView实现加载更多功能/iOS开发UI篇-在UITableView实现加载更多功能-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS开发UI篇-在UITableView实现加载更多功能Tests/iOS开发UI篇-在UITableView实现加载更多功能Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		74E6CF6C1995BE900003B581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS开发UI篇-在UITableView实现加载更多功能.app/iOS开发UI篇-在UITableView实现加载更多功能";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS开发UI篇-在UITableView实现加载更多功能/iOS开发UI篇-在UITableView实现加载更多功能-Prefix.pch";
+				INFOPLIST_FILE = "iOS开发UI篇-在UITableView实现加载更多功能Tests/iOS开发UI篇-在UITableView实现加载更多功能Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74E6CF301995BE900003B581 /* Build configuration list for PBXProject "iOS开发UI篇-在UITableView实现加载更多功能" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E6CF651995BE900003B581 /* Debug */,
+				74E6CF661995BE900003B581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E6CF671995BE900003B581 /* Build configuration list for PBXNativeTarget "iOS开发UI篇-在UITableView实现加载更多功能" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E6CF681995BE900003B581 /* Debug */,
+				74E6CF691995BE900003B581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74E6CF6A1995BE900003B581 /* Build configuration list for PBXNativeTarget "iOS开发UI篇-在UITableView实现加载更多功能Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E6CF6B1995BE900003B581 /* Debug */,
+				74E6CF6C1995BE900003B581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74E6CF2D1995BE900003B581 /* Project object */;
+}

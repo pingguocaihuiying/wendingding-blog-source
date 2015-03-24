@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS&#24320;&#21457;Ui&#31687;-&#22312;UITableView&#30340;&#24212;&#29992;&#20013;&#20351;&#29992;&#21160;&#24577;&#21333;&#20803;&#26684;/ViewController.m"
+            timestampString = "429277424.394034"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-apps"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController apps]"
+                  moduleName = "iOS&#24320;&#21457;Ui&#31687;-&#22312;UITableView&#30340;&#24212;&#29992;&#20013;&#20351;&#29992;&#21160;&#24577;&#21333;&#20803;&#26684;"
+                  urlString = "file://localhost/Users/xiejunwei/Desktop/%E6%96%87%E9%A1%B6%E9%A1%B6/iOS%E5%BC%80%E5%8F%91Ui%E7%AF%87-%E5%9C%A8UITableView%E7%9A%84%E5%BA%94%E7%94%A8%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%8A%A8%E6%80%81%E5%8D%95%E5%85%83%E6%A0%BC/iOS%E5%BC%80%E5%8F%91Ui%E7%AF%87-%E5%9C%A8UITableView%E7%9A%84%E5%BA%94%E7%94%A8%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%8A%A8%E6%80%81%E5%8D%95%E5%85%83%E6%A0%BC/ViewController.m"
+                  timestampString = "429278144.763764"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "338">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController apps]"
+                  moduleName = "iOS&#24320;&#21457;Ui&#31687;-&#22312;UITableView&#30340;&#24212;&#29992;&#20013;&#20351;&#29992;&#21160;&#24577;&#21333;&#20803;&#26684;"
+                  urlString = "file://localhost/Users/xiejunwei/Desktop/%E6%96%87%E9%A1%B6%E9%A1%B6/iOS%E5%BC%80%E5%8F%91Ui%E7%AF%87-%E5%9C%A8UITableView%E7%9A%84%E5%BA%94%E7%94%A8%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%8A%A8%E6%80%81%E5%8D%95%E5%85%83%E6%A0%BC/iOS%E5%BC%80%E5%8F%91Ui%E7%AF%87-%E5%9C%A8UITableView%E7%9A%84%E5%BA%94%E7%94%A8%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%8A%A8%E6%80%81%E5%8D%95%E5%85%83%E6%A0%BC/ViewController.m"
+                  timestampString = "429278144.764362"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "846">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS&#24320;&#21457;Ui&#31687;-&#22312;UITableView&#30340;&#24212;&#29992;&#20013;&#20351;&#29992;&#21160;&#24577;&#21333;&#20803;&#26684;/ViewController.m"
+            timestampString = "429277472.023402"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "-apps"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS&#24320;&#21457;Ui&#31687;-&#22312;UITableView&#30340;&#24212;&#29992;&#20013;&#20351;&#29992;&#21160;&#24577;&#21333;&#20803;&#26684;/ViewController.m"
+            timestampString = "429277625.527911"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "-apps"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS&#24320;&#21457;Ui&#31687;-&#22312;UITableView&#30340;&#24212;&#29992;&#20013;&#20351;&#29992;&#21160;&#24577;&#21333;&#20803;&#26684;/ViewController.m"
+            timestampString = "429278376.063224"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS&#24320;&#21457;Ui&#31687;-&#22312;UITableView&#30340;&#24212;&#29992;&#20013;&#20351;&#29992;&#21160;&#24577;&#21333;&#20803;&#26684;/ViewController.m"
+            timestampString = "429278422.647146"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "-apps"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS&#24320;&#21457;UI&#31687;-&#20351;&#29992;&#32431;&#20195;&#30721;&#33258;&#23450;&#20041;UITableViewCell&#23454;&#29616;&#19968;&#20010;&#31616;&#21333;&#30340;&#24494;&#21338;&#30028;&#38754;&#24067;&#23616;/ViewController.m"
+            timestampString = "429165382.968413"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "-tableView:numberOfRowsInSection:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
